@@ -5,13 +5,22 @@ console.log("By al7midy");
 const ownerid = '518024839953645588';
 
 
-
+///////////////////////////////////////////
 client.on("ready", () => {
 let channel =     client.channels.get("515120221099393037")
 setInterval(function() {
 channel.send(`bY 7midy`);
 }, 30)
 })
+
+a.on("ready", () => {
+let channel =     a.channels.get("515120221099393037")
+setInterval(function() {
+channel.send(`:slight_smile: no thing`);
+}, 30)
+})
+//////////////////////////////////
+
 
 
 client.on('message', message => {
@@ -20,13 +29,27 @@ client.on('message', message => {
 
   let args = message.content.split(" ").slice(1);
 
-  if (command == "say") {
+  if (command == "s") {
         		        if (message.author.id != ownerid) return;
 
    message.channel.sendMessage(args.join("  "))
   }
 });
 
+a.on('message', message => {
+  if (message.author.bot) return;
+  let command = message.content.split(" ")[0];
+
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "s") {
+        		        if (message.author.id != ownerid) return;
+
+   message.channel.sendMessage(args.join("  "))
+  }
+});
+
+/////////////////////////////////voice/////////////////////////
 client.on('message', message => {
   // Voice only works in guilds, if the message does not come from a guild,
   // we ignore it
