@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const a = new Discord.Client();z
+const a = new Discord.Client();
 
 console.log("By al7midy");
 const ownerid = '518024839953645588';
