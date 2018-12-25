@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const a = new Discord.Client();
-
+const ana = new Discord.Client();
 console.log("By al7midy");
 const ownerid = '518024839953645588';
 
@@ -58,3 +58,4 @@ a.on('message', message => {
 
 client.login(process.env.BOT_TOKEN);
 a.login(process.env.BOT_TOKEN1);
+ana.login(process.env.BOT_TOKEN2);
