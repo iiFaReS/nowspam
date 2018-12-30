@@ -56,6 +56,34 @@ a.on('message', message => {
 
 
 
+client.on('message', message => {
+  if (message.author.bot) return;
+  let command = message.content.split(" ")[0];
+
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "s1") {
+        		        if (message.author.id != ownerid) return;
+
+   message.channel.sendMessage(args.join("  "))
+  }
+});
+
+a.on('message', message => {
+  if (message.author.bot) return;
+  let command = message.content.split(" ")[0];
+
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "s2") {
+        		        if (message.author.id != ownerid) return;
+
+   message.channel.sendMessage(args.join("  "))
+  }
+});
+
+
+
 client.login(process.env.BOT_TOKEN);
 a.login(process.env.BOT_TOKEN1);
 ana.login(process.env.BOT_TOKEN2);
