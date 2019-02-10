@@ -288,6 +288,58 @@ h.on('message', message => {
   }
 });
 
+a.on('ready', async () => {
+let ReBeL = ["#daily"]
+setInterval(() => {
+a.channels.get("539466105694191616").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
+},86400000);
+});
+b.on('ready', async () => {
+let ReBeL = ["#daily"]
+setInterval(() => {
+b.channels.get("539466105694191616").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
+},86400000);
+});
+c.on('ready', async () => {
+let ReBeL = ["#daily"]
+setInterval(() => {
+c.channels.get("539466105694191616").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
+},86400000);
+});
+d.on('ready', async () => {
+let ReBeL = ["#daily"]
+setInterval(() => {
+d.channels.get("539466105694191616").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
+},86400000);
+});
+e.on('ready', async () => {
+let ReBeL = ["#daily"]
+setInterval(() => {
+e.channels.get("539466105694191616").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
+},86400000);
+});
+f.on('ready', async () => {
+let ReBeL = ["#daily"]
+setInterval(() => {
+f.channels.get("539466105694191616").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
+},86400000);
+});
+g.on('ready', async () => {
+let ReBeL = ["#daily"]
+setInterval(() => {
+g.channels.get("539466105694191616").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
+},86400000);
+});
+h.on('ready', async () => {
+let ReBeL = ["#daily"]
+setInterval(() => {
+h.channels.get("539466105694191616").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
+},86400000);
+});
+
+
+
+
 //"NTQxNjgxMTg0OTUwODQ1NDQw.Dzi_6Q.iyZrZ6Vz-gwhXKopVQdHfJqJDdk" @axTT        1
 //"NTQxNjg1MjUyNzA0NDM2MjU0.DzjDeA.OO2zdX4In5bnS1RTuAHGfDMSQ6U" @FiBas!      2
 //"NTQxNjg2MzM0MjUxNzI4OTEz.DzjEZw.Snbx6-fpdSYRIuSye291Cf26Jsk" @Quiet_Riot  3
