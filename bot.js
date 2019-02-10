@@ -292,49 +292,49 @@ a.on('ready', async () => {
 let ReBeL = ["#daily"]
 setInterval(() => {
 a.channels.get("539466105694191616").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
-},86400000);
+},86401000);
 });
 b.on('ready', async () => {
 let ReBeL = ["#daily"]
 setInterval(() => {
 b.channels.get("539466105694191616").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
-},86400000);
+},86402000);
 });
 c.on('ready', async () => {
 let ReBeL = ["#daily"]
 setInterval(() => {
 c.channels.get("539466105694191616").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
-},86400000);
+},86403000);
 });
 d.on('ready', async () => {
 let ReBeL = ["#daily"]
 setInterval(() => {
 d.channels.get("539466105694191616").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
-},86400000);
+},86404000);
 });
 e.on('ready', async () => {
 let ReBeL = ["#daily"]
 setInterval(() => {
 e.channels.get("539466105694191616").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
-},86400000);
+},86405000);
 });
 f.on('ready', async () => {
 let ReBeL = ["#daily"]
 setInterval(() => {
 f.channels.get("539466105694191616").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
-},86400000);
+},86406000);
 });
 g.on('ready', async () => {
 let ReBeL = ["#daily"]
 setInterval(() => {
 g.channels.get("539466105694191616").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
-},86400000);
+},86407000);
 });
 h.on('ready', async () => {
 let ReBeL = ["#daily"]
 setInterval(() => {
 h.channels.get("539466105694191616").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
-},86400000);
+},86408000);
 });
 
 
