@@ -10,6 +10,7 @@ const h = new Discord.Client();
 const i = new Discord.Client();
 const j = new Discord.Client();
 const k = new Discord.Client();
+
 const myID = '348586830305689600';
 a.on('ready', () => {
   console.log(`Logged in as 1!`);
