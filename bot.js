@@ -7,7 +7,9 @@ const e = new Discord.Client();
 const f = new Discord.Client();
 const g = new Discord.Client();
 const h = new Discord.Client();
-
+const i = new Discord.Client();
+const j = new Discord.Client();
+const k = new Discord.Client();
 const myID = '348586830305689600';
 a.on('ready', () => {
   console.log(`Logged in as 1!`);
@@ -33,6 +35,16 @@ g.on('ready', () => {
 h.on('ready', () => {
   console.log(`Logged in as 8!`);
 });
+i.on('ready', () => {
+  console.log(`Logged in as 9!`);
+});
+j.on('ready', () => {
+  console.log(`Logged in as 10!`);
+});
+k.on('ready', () => {
+  console.log(`Logged in as 11!`);
+});
+
 //////////////////////////////////////
 a.on('ready', async () => {
 let ReBeL = ["الحلو انا","1","نبي فلوس","احبك","اموت فيك","اعشقك"]
@@ -89,6 +101,28 @@ setInterval(() => {
 h.channels.get("539466105694191616").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
 },66000);
 });
+
+i.on('ready', async () => {
+let ReBeL = ["الحلو انا","9","نبي فلوس","احبك","اموت فيك","اعشقك"]
+setInterval(() => {
+i.channels.get("539466105694191616").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
+},67000);
+});
+
+j.on('ready', async () => {
+let ReBeL = ["الحلو انا","10","نبي فلوس","احبك","اموت فيك","اعشقك"]
+setInterval(() => {
+j.channels.get("539466105694191616").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
+},68000);
+});
+
+k.on('ready', async () => {
+let ReBeL = ["الحلو انا","11","نبي فلوس","احبك","اموت فيك","اعشقك"]
+setInterval(() => {
+k.channels.get("539466105694191616").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
+},69000);
+});
+
 /////////////////////////////////////
 a.on('message', message => {
   if (message.author.bot) return;
@@ -183,6 +217,42 @@ h.on('message', message => {
   let args = message.content.split(" ").slice(1);
 
   if (command == "s8") {
+        		        if (message.author.id != myID) return;
+
+   message.channel.sendMessage(args.join("  "))
+  }
+});
+i.on('message', message => {
+  if (message.author.bot) return;
+  let command = message.content.split(" ")[0];
+
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "s9") {
+        		        if (message.author.id != myID) return;
+
+   message.channel.sendMessage(args.join("  "))
+  }
+});
+j.on('message', message => {
+  if (message.author.bot) return;
+  let command = message.content.split(" ")[0];
+
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "s10") {
+        		        if (message.author.id != myID) return;
+
+   message.channel.sendMessage(args.join("  "))
+  }
+});
+k.on('message', message => {
+  if (message.author.bot) return;
+  let command = message.content.split(" ")[0];
+
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "s11") {
         		        if (message.author.id != myID) return;
 
    message.channel.sendMessage(args.join("  "))
@@ -288,53 +358,41 @@ h.on('message', message => {
   }
 });
 
-a.on('ready', async () => {
-let ReBeL = ["#daily"]
-setInterval(() => {
-a.channels.get("539466105694191616").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
-},86401000);
+i.on('message', message => {
+  if (message.author.bot) return;
+  let command = message.content.split(" ")[0];
+
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "s") {
+        		        if (message.author.id != myID) return;
+
+   message.channel.sendMessage(args.join("  "))
+  }
 });
-b.on('ready', async () => {
-let ReBeL = ["#daily"]
-setInterval(() => {
-b.channels.get("539466105694191616").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
-},86402000);
+j.on('message', message => {
+  if (message.author.bot) return;
+  let command = message.content.split(" ")[0];
+
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "s") {
+        		        if (message.author.id != myID) return;
+
+   message.channel.sendMessage(args.join("  "))
+  }
 });
-c.on('ready', async () => {
-let ReBeL = ["#daily"]
-setInterval(() => {
-c.channels.get("539466105694191616").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
-},86403000);
-});
-d.on('ready', async () => {
-let ReBeL = ["#daily"]
-setInterval(() => {
-d.channels.get("539466105694191616").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
-},86404000);
-});
-e.on('ready', async () => {
-let ReBeL = ["#daily"]
-setInterval(() => {
-e.channels.get("539466105694191616").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
-},86405000);
-});
-f.on('ready', async () => {
-let ReBeL = ["#daily"]
-setInterval(() => {
-f.channels.get("539466105694191616").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
-},86406000);
-});
-g.on('ready', async () => {
-let ReBeL = ["#daily"]
-setInterval(() => {
-g.channels.get("539466105694191616").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
-},86407000);
-});
-h.on('ready', async () => {
-let ReBeL = ["#daily"]
-setInterval(() => {
-h.channels.get("539466105694191616").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
-},86408000);
+k.on('message', message => {
+  if (message.author.bot) return;
+  let command = message.content.split(" ")[0];
+
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "s") {
+        		        if (message.author.id != myID) return;
+
+   message.channel.sendMessage(args.join("  "))
+  }
 });
 
 
@@ -348,6 +406,9 @@ h.channels.get("539466105694191616").send(`${ReBeL[Math.floor(Math.random() *ReB
 //"NTQxMjMxMzYxMDI2MDMxNjE2.DzccrA.TzJUp6bgJKebtDSF7IJoERdpmeA" @dived sparo
 //"NTQxMjMyMDkyMjE5MDQ3OTQ2.DzceEg.kuARL0_hRfsuKpFnVPdfszgfwrY"@the king
 // "NTQxMjMzODE5NjA5NDY0ODUy.DzcfFA.r3BSVEFXX_8PykOyE7ndgyFeIjM" @id
+//"NTQ0NzYxNTUwODEzMDAzNzc3.D0YHAA.mS1Mrtx8l6mfp7v_ck8tZzm4H90" @the XP
+//"NTQ1MzMyMjk0NjIyMTE3ODg5.D0YIWQ.-o1L6-2KrbL1Jb8xhClYVkx2ma4" @تعال اشبعك حب
+//"NTQ1MzMzNTY1NTI5Nzg0MzUw.D0YJZA.n5_AkMhbH-m3HKSn1P5MKObDR_4" @اشبعك دلال
 a.login(process.env.BOT_TOKEN1);
 b.login(process.env.BOT_TOKEN2);
 c.login(process.env.BOT_TOKEN3);
@@ -356,3 +417,6 @@ e.login(process.env.BOT_TOKEN5);
 f.login(process.env.BOT_TOKEN6);
 g.login(process.env.BOT_TOKEN7);
 h.login(process.env.BOT_TOKEN8);
+i.login(process.env.BOT_TOKEN9);
+j.login(process.env.BOT_TOKEN10);
+k.login(process.env.BOT_TOKEN11);
