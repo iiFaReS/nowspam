@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const a = new Discord.Client();
+const 1 = new Discord.Client();
 const b = new Discord.Client();
 const c = new Discord.Client();
 const d = new Discord.Client();
@@ -12,7 +12,7 @@ const j = new Discord.Client();
 const k = new Discord.Client();
 
 const myID = '348586830305689600';
-a.on('ready', () => {
+1.on('ready', () => {
   console.log(`Logged in as 1!`);
 });
 b.on('ready', () => {
@@ -47,10 +47,10 @@ k.on('ready', () => {
 });
 
 //////////////////////////////////////
-a.on('ready', async () => {
+1.on('ready', async () => {
 let ReBeL = ["الحلو انا","1","نبي فلوس","احبك","اموت فيك","اعشقك"]
 setInterval(() => {
-a.channels.get("539466105694191616").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
+1.channels.get("539466105694191616").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
 },59000);
 });
 
@@ -125,7 +125,7 @@ k.channels.get("539466105694191616").send(`${ReBeL[Math.floor(Math.random() *ReB
 });
 
 /////////////////////////////////////
-a.on('message', message => {
+1.on('message', message => {
   if (message.author.bot) return;
   let command = message.content.split(" ")[0];
 
@@ -260,7 +260,7 @@ k.on('message', message => {
   }
 });
 ////////////////
-a.on('message', message => {
+1.on('message', message => {
   if (message.author.bot) return;
   let command = message.content.split(" ")[0];
 
@@ -410,7 +410,7 @@ k.on('message', message => {
 //"NTQ0NzYxNTUwODEzMDAzNzc3.D0YHAA.mS1Mrtx8l6mfp7v_ck8tZzm4H90" @the XP
 //"NTQ1MzMyMjk0NjIyMTE3ODg5.D0YIWQ.-o1L6-2KrbL1Jb8xhClYVkx2ma4" @تعال اشبعك حب
 //"NTQ1MzMzNTY1NTI5Nzg0MzUw.D0YJZA.n5_AkMhbH-m3HKSn1P5MKObDR_4" @اشبعك دلال
-a.login(process.env.BOT_TOKEN1);
+1.login(process.env.BOT_TOKEN1);
 b.login(process.env.BOT_TOKEN2);
 c.login(process.env.BOT_TOKEN3);
 d.login(process.env.BOT_TOKEN4);
