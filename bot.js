@@ -45,7 +45,7 @@ const qq = new Discord.Client();
 const rr = new Discord.Client();
 const ss = new Discord.Client();
 
-const myID = '403194852902305805';
+const myID = '348586830305689600';
 ////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////
 a.on('ready', () => {
