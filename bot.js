@@ -2,6 +2,7 @@ const Discord = require('discord.js');
 const a = new Discord.Client();
 const b = new Discord.Client();
 const c = new Discord.Client();
+const e = new Discord.Client();
 const d = new Discord.Client();
 const g = new Discord.Client();
 const h = new Discord.Client();
@@ -35,7 +36,6 @@ const ii = new Discord.Client();
 const jj = new Discord.Client();
 const kk = new Discord.Client();
 const ll = new Discord.Client();
-
 const nn = new Discord.Client();
 const oo = new Discord.Client();
 const pp = new Discord.Client();
@@ -76,6 +76,12 @@ let ReBeL = ["العم جوردي","حبيبي جوردي","سيرفر جورد�
 setInterval(() => {
 d.channels.get("550761392332865556").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
 },62000);
+});
+e.on('ready', async () => {
+let ReBeL = ["وين طيزك يامودي","جوني","سينس","طيز","نياشي","جوردي"]
+setInterval(() => {
+e.channels.get("550761392332865556").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
+},59000);
 });
 
 
@@ -392,7 +398,18 @@ d.on('message', message => {
    message.channel.sendMessage(args.join("  "))
   }
 });
+e.on('message', message => {
+  if (message.author.bot) return;
+  let command = message.content.split(" ")[0];
 
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "s5") {
+        		        if (message.author.id != myID) return;
+
+   message.channel.sendMessage(args.join("  "))
+  }
+});
 
 
 g.on('message', message => {
@@ -920,7 +937,18 @@ d.on('message', message => {
    message.channel.sendMessage(args.join("  "))
   }
 });
+e.on('message', message => {
+  if (message.author.bot) return;
+  let command = message.content.split(" ")[0];
 
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "s") {
+        		        if (message.author.id != myID) return;
+
+   message.channel.sendMessage(args.join("  "))
+  }
+});
 g.on('message', message => {
   if (message.author.bot) return;
   let command = message.content.split(" ")[0];
@@ -1364,7 +1392,7 @@ a.login(process.env.BOT_TOKEN1);
 b.login(process.env.BOT_TOKEN2);
 c.login(process.env.BOT_TOKEN3);
 d.login(process.env.BOT_TOKEN4);
-//e.login(process.env.BOT_TOKEN5);
+e.login(process.env.BOT_TOKEN5);
 //f.login(process.env.BOT_TOKEN6);
 g.login(process.env.BOT_TOKEN7);
 h.login(process.env.BOT_TOKEN8);
