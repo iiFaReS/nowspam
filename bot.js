@@ -869,7 +869,7 @@ mm.on('message', message => {
 
   let args = message.content.split(" ").slice(1);
 
-  if (command == "39") {
+  if (command == "s39") {
         		        if (message.author.id != myID) return;
 
    message.channel.sendMessage(args.join("  "))
