@@ -2,8 +2,9 @@ const Discord = require('discord.js');
 const a = new Discord.Client();
 const b = new Discord.Client();
 const c = new Discord.Client();
-const e = new Discord.Client();
 const d = new Discord.Client();
+const e = new Discord.Client();
+const f = new Discord.Client();
 const g = new Discord.Client();
 const h = new Discord.Client();
 const i = new Discord.Client();
@@ -36,11 +37,13 @@ const ii = new Discord.Client();
 const jj = new Discord.Client();
 const kk = new Discord.Client();
 const ll = new Discord.Client();
+const mm = new Discord.Client();
 const nn = new Discord.Client();
 const oo = new Discord.Client();
 const pp = new Discord.Client();
 const qq = new Discord.Client();
-
+const rr = new Discord.Client();
+const ss = new Discord.Client();
 
 const myID = '348586830305689600';
 ////////////////////////////////////////////////////////////
@@ -77,16 +80,20 @@ setInterval(() => {
 d.channels.get("550761392332865556").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
 },62000);
 });
+
 e.on('ready', async () => {
-let ReBeL = ["وين طيزك يامودي","جوني","سينس","طيز","نياشي","جوردي"]
+let ReBeL = ["الله اكبر عليكم","ياقحبات","مخنث","شرموط","ايها المنيوش العظيم","ياقحبه"]
 setInterval(() => {
 e.channels.get("550761392332865556").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
-},59000);
+},63000);
 });
 
-
-
-
+f.on('ready', async () => {
+let ReBeL = ["ها","هو فيه ايه","ولك منيوش","زبي","قحبه","ابو تحسين عرصة"]
+setInterval(() => {
+f.channels.get("550761392332865556").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
+},64000);
+});
 
 g.on('ready', async () => {
 let ReBeL = ["امو ل ابو تحسين قحبه","ايري ب ابو تحسين","جوني ناك ابو تحسين","جوردي ناك ابو تحسين","ابو تحسين عرصة","مخنث ابو تحسين"]
@@ -191,7 +198,7 @@ t.channels.get("550761392332865556").send(`${ReBeL[Math.floor(Math.random() *ReB
 u.on('ready', async () => {
 let ReBeL = ["وين طيزك يامودي","جوني","سينس","طيز","نياشي","جوردي"]
 setInterval(() => {
-u.channels.get("539466105694191616").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
+u.channels.get("550761392332865556").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
 },59000);
 });
 
@@ -314,6 +321,12 @@ ll.channels.get("550761392332865556").send(`${ReBeL[Math.floor(Math.random() *Re
 },59000);
 });
 
+mm.on('ready', async () => {
+let ReBeL = ["وين طيزك يامودي","جوني","سينس","طيز","نياشي","جوردي"]
+setInterval(() => {
+mm.channels.get("550761392332865556").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
+},59000);
+});
 
 nn.on('ready', async () => {
 let ReBeL = ["وين طيزك يامودي","جوني","سينس","طيز","نياشي","جوردي"]
@@ -343,7 +356,19 @@ qq.channels.get("550761392332865556").send(`${ReBeL[Math.floor(Math.random() *Re
 },59000);
 });
 
+rr.on('ready', async () => {
+let ReBeL = ["وين طيزك يامودي","جوني","سينس","طيز","نياشي","جوردي"]
+setInterval(() => {
+rr.channels.get("550761392332865556").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
+},59000);
+});
 
+ss.on('ready', async () => {
+let ReBeL = ["وين طيزك يامودي","جوني","سينس","طيز","نياشي","جوردي"]
+setInterval(() => {
+ss.channels.get("550761392332865556").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
+},59000);
+});
 
 
 //////////////////////////////////////////////////////////////////////////
@@ -398,6 +423,7 @@ d.on('message', message => {
    message.channel.sendMessage(args.join("  "))
   }
 });
+
 e.on('message', message => {
   if (message.author.bot) return;
   let command = message.content.split(" ")[0];
@@ -410,8 +436,18 @@ e.on('message', message => {
    message.channel.sendMessage(args.join("  "))
   }
 });
+f.on('message', message => {
+  if (message.author.bot) return;
+  let command = message.content.split(" ")[0];
 
+  let args = message.content.split(" ").slice(1);
 
+  if (command == "s6") {
+        		        if (message.author.id != myID) return;
+
+   message.channel.sendMessage(args.join("  "))
+  }
+});
 g.on('message', message => {
   if (message.author.bot) return;
   let command = message.content.split(" ")[0];
@@ -827,7 +863,18 @@ ll.on('message', message => {
   }
 });
 
+mm.on('message', message => {
+  if (message.author.bot) return;
+  let command = message.content.split(" ")[0];
 
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "39") {
+        		        if (message.author.id != myID) return;
+
+   message.channel.sendMessage(args.join("  "))
+  }
+});
 
 nn.on('message', message => {
   if (message.author.bot) return;
@@ -881,9 +928,31 @@ qq.on('message', message => {
   }
 });
 
+rr.on('message', message => {
+  if (message.author.bot) return;
+  let command = message.content.split(" ")[0];
 
+  let args = message.content.split(" ").slice(1);
 
+  if (command == "s44") {
+        		        if (message.author.id != myID) return;
 
+   message.channel.sendMessage(args.join("  "))
+  }
+});
+
+ss.on('message', message => {
+  if (message.author.bot) return;
+  let command = message.content.split(" ")[0];
+
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "s45") {
+        		        if (message.author.id != myID) return;
+
+   message.channel.sendMessage(args.join("  "))
+  }
+});
 
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
@@ -938,6 +1007,18 @@ d.on('message', message => {
   }
 });
 e.on('message', message => {
+  if (message.author.bot) return;
+  let command = message.content.split(" ")[0];
+
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "s") {
+        		        if (message.author.id != myID) return;
+
+   message.channel.sendMessage(args.join("  "))
+  }
+});
+f.on('message', message => {
   if (message.author.bot) return;
   let command = message.content.split(" ")[0];
 
@@ -1333,7 +1414,18 @@ ll.on('message', message => {
    message.channel.sendMessage(args.join("  "))
   }
 });
+mm.on('message', message => {
+  if (message.author.bot) return;
+  let command = message.content.split(" ")[0];
 
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "s") {
+        		        if (message.author.id != myID) return;
+
+   message.channel.sendMessage(args.join("  "))
+  }
+});
 nn.on('message', message => {
   if (message.author.bot) return;
   let command = message.content.split(" ")[0];
@@ -1382,7 +1474,30 @@ qq.on('message', message => {
    message.channel.sendMessage(args.join("  "))
   }
 });
+rr.on('message', message => {
+  if (message.author.bot) return;
+  let command = message.content.split(" ")[0];
 
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "s") {
+        		        if (message.author.id != myID) return;
+
+   message.channel.sendMessage(args.join("  "))
+  }
+});
+ss.on('message', message => {
+  if (message.author.bot) return;
+  let command = message.content.split(" ")[0];
+
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "s") {
+        		        if (message.author.id != myID) return;
+
+   message.channel.sendMessage(args.join("  "))
+  }
+});
 
 
 
@@ -1393,7 +1508,7 @@ b.login(process.env.BOT_TOKEN2);
 c.login(process.env.BOT_TOKEN3);
 d.login(process.env.BOT_TOKEN4);
 e.login(process.env.BOT_TOKEN5);
-//f.login(process.env.BOT_TOKEN6);
+f.login(process.env.BOT_TOKEN6);
 g.login(process.env.BOT_TOKEN7);
 h.login(process.env.BOT_TOKEN8);
 i.login(process.env.BOT_TOKEN9);
@@ -1426,10 +1541,10 @@ ii.login(process.env.BOT_TOKEN35);
 jj.login(process.env.BOT_TOKEN36);
 kk.login(process.env.BOT_TOKEN37);
 ll.login(process.env.BOT_TOKEN38);
-//mm.login(process.env.BOT_TOKEN39);
+mm.login(process.env.BOT_TOKEN39);
 nn.login(process.env.BOT_TOKEN40);
 oo.login(process.env.BOT_TOKEN41);
 pp.login(process.env.BOT_TOKEN42);
 qq.login(process.env.BOT_TOKEN43);
-//rr.login(process.env.BOT_TOKEN44);
-//ss.login(process.env.BOT_TOKEN45);
+rr.login(process.env.BOT_TOKEN44);
+ss.login(process.env.BOT_TOKEN45);
