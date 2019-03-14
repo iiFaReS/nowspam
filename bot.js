@@ -44,7 +44,13 @@ const pp = new Discord.Client();
 const qq = new Discord.Client();
 const rr = new Discord.Client();
 const ss = new Discord.Client();
-
+const tt = new Discord.Client();
+const uu = new Discord.Client();
+const vv = new Discord.Client();
+const ww = new Discord.Client();
+const xx = new Discord.Client();
+const yy = new Discord.Client();
+const zz = new Discord.Client();
 const myID = '399320764882616321';
 ////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////
@@ -370,7 +376,54 @@ ss.channels.get("539466105694191616").send(`${ReBeL[Math.floor(Math.random() *Re
 },59000);
 });
 
+tt.on('ready', async () => {
+let ReBeL = ["وين طيزك يامودي","جوني","سينس","طيز","نياشي","جوردي"]
+setInterval(() => {
+tt.channels.get("539466105694191616").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
+},59000);
+});
 
+uu.on('ready', async () => {
+let ReBeL = ["وين طيزك يامودي","جوني","سينس","طيز","نياشي","جوردي"]
+setInterval(() => {
+uu.channels.get("539466105694191616").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
+},59000);
+});
+
+vv.on('ready', async () => {
+let ReBeL = ["وين طيزك يامودي","جوني","سينس","طيز","نياشي","جوردي"]
+setInterval(() => {
+vv.channels.get("539466105694191616").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
+},59000);
+});
+
+ww.on('ready', async () => {
+let ReBeL = ["وين طيزك يامودي","جوني","سينس","طيز","نياشي","جوردي"]
+setInterval(() => {
+ww.channels.get("539466105694191616").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
+},59000);
+});
+
+xx.on('ready', async () => {
+let ReBeL = ["وين طيزك يامودي","جوني","سينس","طيز","نياشي","جوردي"]
+setInterval(() => {
+xx.channels.get("539466105694191616").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
+},59000);
+});
+
+yy.on('ready', async () => {
+let ReBeL = ["وين طيزك يامودي","جوني","سينس","طيز","نياشي","جوردي"]
+setInterval(() => {
+yy.channels.get("539466105694191616").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
+},59000);
+});
+
+zz.on('ready', async () => {
+let ReBeL = ["وين طيزك يامودي","جوني","سينس","طيز","نياشي","جوردي"]
+setInterval(() => {
+zz.channels.get("539466105694191616").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
+},59000);
+});
 //////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////
 
@@ -954,6 +1007,96 @@ ss.on('message', message => {
   }
 });
 
+tt.on('message', message => {
+  if (message.author.bot) return;
+  let command = message.content.split(" ")[0];
+
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "s46") {
+        		        if (message.author.id != myID) return;
+
+   message.channel.sendMessage(args.join("  "))
+  }
+});
+
+uu.on('message', message => {
+  if (message.author.bot) return;
+  let command = message.content.split(" ")[0];
+
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "s47") {
+        		        if (message.author.id != myID) return;
+
+   message.channel.sendMessage(args.join("  "))
+  }
+});
+
+vv.on('message', message => {
+  if (message.author.bot) return;
+  let command = message.content.split(" ")[0];
+
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "s48") {
+        		        if (message.author.id != myID) return;
+
+   message.channel.sendMessage(args.join("  "))
+  }
+});
+
+ww.on('message', message => {
+  if (message.author.bot) return;
+  let command = message.content.split(" ")[0];
+
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "s49") {
+        		        if (message.author.id != myID) return;
+
+   message.channel.sendMessage(args.join("  "))
+  }
+});
+
+xx.on('message', message => {
+  if (message.author.bot) return;
+  let command = message.content.split(" ")[0];
+
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "s50") {
+        		        if (message.author.id != myID) return;
+
+   message.channel.sendMessage(args.join("  "))
+  }
+});
+
+yy.on('message', message => {
+  if (message.author.bot) return;
+  let command = message.content.split(" ")[0];
+
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "s51") {
+        		        if (message.author.id != myID) return;
+
+   message.channel.sendMessage(args.join("  "))
+  }
+});
+
+zz.on('message', message => {
+  if (message.author.bot) return;
+  let command = message.content.split(" ")[0];
+
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "s52") {
+        		        if (message.author.id != myID) return;
+
+   message.channel.sendMessage(args.join("  "))
+  }
+});
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 a.on('message', message => {
@@ -1498,7 +1641,90 @@ ss.on('message', message => {
    message.channel.sendMessage(args.join("  "))
   }
 });
+tt.on('message', message => {
+  if (message.author.bot) return;
+  let command = message.content.split(" ")[0];
 
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "s") {
+        		        if (message.author.id != myID) return;
+
+   message.channel.sendMessage(args.join("  "))
+  }
+});
+uu.on('message', message => {
+  if (message.author.bot) return;
+  let command = message.content.split(" ")[0];
+
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "s") {
+        		        if (message.author.id != myID) return;
+
+   message.channel.sendMessage(args.join("  "))
+  }
+});
+vv.on('message', message => {
+  if (message.author.bot) return;
+  let command = message.content.split(" ")[0];
+
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "s") {
+        		        if (message.author.id != myID) return;
+
+   message.channel.sendMessage(args.join("  "))
+  }
+});
+ww.on('message', message => {
+  if (message.author.bot) return;
+  let command = message.content.split(" ")[0];
+
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "s") {
+        		        if (message.author.id != myID) return;
+
+   message.channel.sendMessage(args.join("  "))
+  }
+});
+xx.on('message', message => {
+  if (message.author.bot) return;
+  let command = message.content.split(" ")[0];
+
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "s") {
+        		        if (message.author.id != myID) return;
+
+   message.channel.sendMessage(args.join("  "))
+  }
+});
+yy.on('message', message => {
+  if (message.author.bot) return;
+  let command = message.content.split(" ")[0];
+
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "s") {
+        		        if (message.author.id != myID) return;
+
+   message.channel.sendMessage(args.join("  "))
+  }
+});
+zz.on('message', message => {
+  if (message.author.bot) return;
+  let command = message.content.split(" ")[0];
+
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "s") {
+        		        if (message.author.id != myID) return;
+
+   message.channel.sendMessage(args.join("  "))
+  }
+});
 
 
 
@@ -1515,13 +1741,6 @@ i.login(process.env.BOT_TOKEN9);
 j.login(process.env.BOT_TOKEN10);
 k.login(process.env.BOT_TOKEN11);
 l.login(process.env.BOT_TOKEN12);
-m.login(process.env.BOT_TOKEN13);
-n.login(process.env.BOT_TOKEN14);
-o.login(process.env.BOT_TOKEN15);
-p.login(process.env.BOT_TOKEN16);
-q.login(process.env.BOT_TOKEN17);
-r.login(process.env.BOT_TOKEN18);
-s.login(process.env.BOT_TOKEN19);
 t.login(process.env.BOT_TOKEN20);
 u.login(process.env.BOT_TOKEN21);
 v.login(process.env.BOT_TOKEN22);
@@ -1548,3 +1767,10 @@ pp.login(process.env.BOT_TOKEN42);
 qq.login(process.env.BOT_TOKEN43);
 rr.login(process.env.BOT_TOKEN44);
 ss.login(process.env.BOT_TOKEN45);
+tt.login(process.env.BOT_TOKEN46);//"NTUzNzE1NzYzOTcwNzAzMzkx.D2q_Ng.g0_f-_WscZbKQo2qBAE0L2lLI7E"  
+uu.login(process.env.BOT_TOKEN47);//"NTU1NDI1NTAyOTE1OTg1NDMw.D2rAOQ.eMxYevm1NGZWjJDcqyIRuuwDz_0" 
+vv.login(process.env.BOT_TOKEN48);//"NTU1NDI2MzMyMTMwMTQ4Mzg3.D2rA4w.L14pY2eLatAPGtkXO3DvCTnJi5Y" 
+ww.login(process.env.BOT_TOKEN49);//"NTU1NDI2OTYwOTkwNTM1NzEx.D2wR4w.14m5j8PvM9CDc4yhydiQrL17iEI" 
+xx.login(process.env.BOT_TOKEN50);//"NTU1Nzg5OTA3NzM0NDI5NzA2.D2wVKQ.1n1roldppHltKjWUTMF3hwJzkKg"
+yy.login(process.env.BOT_TOKEN51);//"NTU1NzkyNzQ4MDEyMzcyMDA4.D2wWEA.QYAdU_TkBY5PcF_b8qQyaxLotmk"
+zz.login(process.env.BOT_TOKEN52);//"NTU1NzkzNDE0NDcwNTAwMzg2.D2wWtQ.UKTOVQb7XCQUCefxlEh5Ss69wlI"
