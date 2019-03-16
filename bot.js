@@ -2152,8 +2152,8 @@ ccc.login(process.env.BOT_TOKEN55);
 ddd.login(process.env.BOT_TOKEN56);
 eee.login(process.env.BOT_TOKEN57);
 fff.login(process.env.BOT_TOKEN58);
-ggg.login(process.env.BOT_TOKEN559);
-hhh.login(process.env.BOT_TOKEN560);
+ggg.login(process.env.BOT_TOKEN59);
+hhh.login(process.env.BOT_TOKEN60);
 iii.login(process.env.BOT_TOKEN61);
 jjj.login(process.env.BOT_TOKEN62);
 
