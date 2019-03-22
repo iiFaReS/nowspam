@@ -3,6 +3,9 @@ const myDiscriminator = ["8888", "0001", "0002", "0003", "0004", "0005", "0006",
 const bot = new(require("discord.js")).Client({fetchAllMembers: true});
 const password = "055747";
 const token = "NTU3NzE5NjAxMjQ5Nzc5NzE0.D3VKcg.-2D4yBBF17S_pQAmM9BBwsCQylg"; 
+bot.on('ready', () => {
+  console.log(`شغآال بواسطه ,, الحـميْديْ .#3919`);
+});
 bot.login(token);
 function changeDiscriminator() {
   if (myDiscriminator.includes(bot.user.discriminator.toString()))
