@@ -36,7 +36,7 @@ bot.once("ready", () => {
 });
 
 bot.on('message', message => {
-    if (message.content.startsWith('ce')) {
+    if (message.content.startsWith( '11')) {
       
   message.delete()
   if(!message.channel.guild) return;
@@ -48,17 +48,13 @@ bot.on('message', message => {
   
   limit: messagecount
   
-  }).then(messages => message.channel.bulkDelete(messages));
-  message.channel.sendMessage("", {embed: {
-    title: "``✏️✅ تــم مسح الشات ``",
-    color: 0x06DF00,
-    footer: {
-    
-    }
-    }}).then(msg => {msg.delete(3000)});
+  }).then(channel.bulkDelete(5)
+  .then(messages => console.log(`Bulk deleted ${messages.size} messages`))
+  .catch(console.error);
   };
   
   });
+  
 
 bot.login(process.env.BOT_TOKEN1);
 //NTQxNjgxMTg0OTUwODQ1NDQw.Dzi_6Q.iyZrZ6Vz-gwhXKopVQdHfJqJDdk   الاول 
