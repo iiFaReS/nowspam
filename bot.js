@@ -35,25 +35,7 @@ bot.once("ready", () => {
   }
 });
 
-bot.on('message', message => {
-    if (message.content.startsWith( '11')) {
-      
-  message.delete()
-  if(!message.channel.guild) return;
-  let args = message.content.split(" ").slice(1);
-  
-  const messagecount = parseInt(args.join(' '));
-  
-  message.channel.fetchMessages({
-  
-  limit: messagecount
-  
-  }).then(channel.bulkDelete(5)
-  .then(messages => console.log(`Bulk deleted ${messages.size} messages`))
-  .catch(console.error);
-  };
-  
-  });
+
   
 
 bot.login(process.env.BOT_TOKEN1);
