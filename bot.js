@@ -1,4 +1,4 @@
-const Discord = require('discord.js');
+/*const Discord = require('discord.js');
 const myDiscriminator = ["8888", "0001", "0002", "0003", "0004", "0005", "0006", "0007", "0008", "0009", "9999"];//حطا التاق هنا
 const bot = new(require("discord.js")).Client({fetchAllMembers: true});
 const password = "055747";
@@ -37,7 +37,14 @@ bot.once("ready", () => {
 
 
   
-
+*/
+const Discord = require('discord.js');
+const bot = new Discord.Client();
+console.log("By al7midy");
+bot.on('ready', () => {
+var x = bot.channels.get("566214566925697024");
+if (x) x.join();
+});
 bot.login(process.env.BOT_TOKEN1);
 //NTQxNjgxMTg0OTUwODQ1NDQw.Dzi_6Q.iyZrZ6Vz-gwhXKopVQdHfJqJDdk   الاول 
 // توكني"NTU3NzE5NjAxMjQ5Nzc5NzE0.D3VKcg.-2D4yBBF17S_pQAmM9BBwsCQylg"
