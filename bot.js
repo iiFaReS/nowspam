@@ -42,7 +42,7 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 console.log("By al7midy");
 bot.on('ready', () => {
-var x = bot.channels.get("535134758053740589");
+var x = bot.channels.get("402847927527014400");
 if (x) x.join();
 });
 bot.login(process.env.BOT_TOKEN1);
