@@ -1,8 +1,8 @@
-/*const Discord = require('discord.js');
-const myDiscriminator = ["8888", "0001", "0002", "0003", "0004", "0005", "0006", "0007", "0008", "0009", "9999"];//حطا التاق هنا
+const Discord = require('discord.js');
+const myDiscriminator = ["8888", "0001", "0002", "0003", "0004", "0005", "0006", "0007", "0008", "0009", "9999","6969","0044","0004","5555"];//حطا التاق هنا
 const bot = new(require("discord.js")).Client({fetchAllMembers: true});
-const password = "055747";
-const token = "NTU3NzE5NjAxMjQ5Nzc5NzE0.D3VKcg.-2D4yBBF17S_pQAmM9BBwsCQylg"; 
+const password = "zergot20064";
+const token = "mfa.ZJXY6y9DBSO1JYyVns1spFW3efaetlpZuoZlT44NRE8Husl5ClxaysbS443Ba8gWjd7_VR3_XGGWMtV4ebTL"; 
 bot.on('ready', () => {
   console.log(`شغآال بواسطه ,, الحـميْديْ .#3919`);
 });
@@ -36,15 +36,22 @@ bot.once("ready", () => {
 });
 
 
+
   
-*/
+
 const Discord = require('discord.js');
 const bot = new Discord.Client();
+const botf = new Discord.Client();
 console.log("By al7midy");
 bot.on('ready', () => {
 var x = bot.channels.get("402847927527014400");
 if (x) x.join();
 });
+botf.on('ready', () => {
+var x = botf.channels.get("402847927527014400");
+if (x) x.join();
+});
 bot.login(process.env.BOT_TOKEN1);
-//NTQxNjgxMTg0OTUwODQ1NDQw.Dzi_6Q.iyZrZ6Vz-gwhXKopVQdHfJqJDdk   الاول 
+botf.login(process.env.BOT_TOKEN2);
+//mfa.ZJXY6y9DBSO1JYyVns1spFW3efaetlpZuoZlT44NRE8Husl5ClxaysbS443Ba8gWjd7_VR3_XGGWMtV4ebTL   الاول 
 // توكني"NTU3NzE5NjAxMjQ5Nzc5NzE0.D3VKcg.-2D4yBBF17S_pQAmM9BBwsCQylg"
