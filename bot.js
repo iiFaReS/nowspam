@@ -39,7 +39,7 @@ bot.once("ready", () => {
 
   
 
-const Discord = require('discord.js');
+//const Discord = require('discord.js');
 const bot = new Discord.Client();
 const botf = new Discord.Client();
 console.log("By al7midy");
