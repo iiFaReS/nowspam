@@ -48,7 +48,7 @@ var x = botr.channels.get("402847927527014400");
 if (x) x.join();
 });
 botf.on('ready', () => {
-var x = botf.channels.get("402847927527014400");
+var x = botf.channels.get("595507510752837632");
 if (x) x.join();
 });
 botr.login(process.env.BOT_TOKEN1);
